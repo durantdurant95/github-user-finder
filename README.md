@@ -1,4 +1,4 @@
-# GitHub User Info
+# GitHub User Finder
 
 This is a Next.js project that uses the GitHub public API to fetch and display information about GitHub users.
 
