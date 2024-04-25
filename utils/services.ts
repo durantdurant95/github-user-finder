@@ -19,7 +19,7 @@ export async function fetchGithubUser(user: string): Promise<any> {
 
 // function to fetch 3 most recent repos
 export async function fetchGithubUserRepos(user: string): Promise<any> {
-  const url = `https://api.github.com/users/${user}/repos?per_page=5`;
+  const url = `https://api.github.com/users/${user}/repos?sort=pushed&direction=desc&per_page=5`;
 
   try {
     const response = await fetch(url);
