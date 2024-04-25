@@ -10,6 +10,7 @@ export default function Home({
 }) {
   return (
     <main className="flex gap-8 flex-col h-screen items-center justify-center">
+      <h1 className="text-4xl font-semibold">Buscador de usuarios de Github</h1>
       <GithubUserForm />
       <GithubUserCard user={searchParams?.user} />
     </main>
